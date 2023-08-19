@@ -1,4 +1,9 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+
+    body {
+        background-color: white;
+    }
+
     .card.active .content h3::before {
         bottom: 355px;
     }
@@ -16,8 +21,5 @@
     }
 
     #readbutton:hover {
-        background-color: #4a45b1;
-        color: #6C63FF;
-        transition: background-color 0.3s, color 0.3s;
     }
 }
