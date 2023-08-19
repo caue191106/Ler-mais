@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+    .card.active .content h3::before {
+        bottom: 355px;
+    }
+
+    #readbutton {
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        margin-top: 15px;
+        background-color: #6C63FF;
+        color: #313131;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    #readbutton:hover {
+        background-color: #4a45b1;
+        color: #6C63FF;
+        transition: background-color 0.3s, color 0.3s;
+    }
+}
