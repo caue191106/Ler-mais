@@ -1,9 +1,5 @@
 @media screen and (max-width: 700px) {
 
-    body {
-        background-color: white;
-    }
-
     .card.active .content h3::before {
         bottom: 355px;
     }
@@ -20,6 +16,17 @@
         font-size: 16px;
     }
 
-    #readbutton:hover {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
+}
+
+@media screen and (max-width: 426px){
+
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+    
 }

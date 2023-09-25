@@ -7,6 +7,6 @@ button.addEventListener('click', function() {
     if (card.classList.contains('active')) {
         return button.textContent = 'Ler menos'
     } else {
-        button.textContent = 'Ler menos'
+        button.textContent = 'Ler mais'
     }
 })
